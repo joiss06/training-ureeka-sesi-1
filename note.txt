@@ -1,0 +1,35 @@
+Github
+
+- git clone : buat cloning project
+- git push : ngepush project lokal ke git
+- git pull : ngambil codingan dari branch lain
+- git merge : menghubungkan kodingan branching A dan B
+- git add = git add all
+- git commit : save
+- git checkout -b [nama branch]: make new branch
+- git status
+- git branch : apa branch yang kita punya
+
+Urutan Project pakai github command:
+1. Git clone
+2. Git checkout -b [branch]: main > dev > Login,Authen,CRUD,Dll
+    - git checkout [branch]
+    - git branch
+3. git status
+4. git add .
+5. git status
+6. git commit -m 'add/fix/update/remove: add textBox login'
+7. git status
+8. git push -u origin main
+9. git merge login
+10. git status
+11. git add ., commit
+12. git push -u origin main/dev
+
+Push Vs Merge:
+Push : Masukin folder/file/codingan kalian ke global gitnya
+Merge : 
+
+note:
+- touch [nama file] = buat file baru
+cth: touch note.txt
